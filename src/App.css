@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: antiquewhite;
+  height: 100%;
 }
 
 .App-logo {
@@ -15,9 +17,7 @@
 .Container {
   margin: auto;
   width: 600px;
-  height: 600px;
-
-  padding: 10px;
+  background-color: antiquewhite;
 }
 .App-header {
   background-color: #282c34;

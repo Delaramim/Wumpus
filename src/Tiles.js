@@ -165,12 +165,64 @@ const Tiles = () => {
 
   return (
     <div style={{ maxWidth: 600 }}>
-      <h1>Score: {score}</h1>
-      <div style={{ margin: 40 }}>
-        <button onClick={() => onLeft()}>Left</button>
-        <button onClick={() => onUp()}>Up</button>
-        <button onClick={() => onDown()}>Down</button>
-        <button onClick={() => onRight()}>Right</button>
+      <h3 style={{ color: "pink" }}>Score: {score}</h3>
+      <div style={{ margin: 20 }}>
+        <button
+          style={{
+            color: "white",
+            backgroundColor: "pink",
+            borderBlockColor: "pink",
+            borderRadius: "10px",
+            width: "70px",
+            height: "40px",
+            margin: "10px"
+          }}
+          onClick={() => onLeft()}
+        >
+          Left
+        </button>
+        <button
+          style={{
+            color: "white",
+            backgroundColor: "pink",
+            borderBlockColor: "pink",
+            borderRadius: "10px",
+            width: "70px",
+            height: "40px",
+            margin: "10px"
+          }}
+          onClick={() => onUp()}
+        >
+          Up
+        </button>
+        <button
+          style={{
+            color: "white",
+            backgroundColor: "pink",
+            borderBlockColor: "pink",
+            borderRadius: "10px",
+            width: "70px",
+            height: "40px",
+            margin: "10px"
+          }}
+          onClick={() => onDown()}
+        >
+          Down
+        </button>
+        <button
+          style={{
+            color: "white",
+            backgroundColor: "pink",
+            borderBlockColor: "pink",
+            borderRadius: "10px",
+            width: "70px",
+            height: "40px",
+            margin: "10px"
+          }}
+          onClick={() => onRight()}
+        >
+          Right
+        </button>
       </div>
       {tiles.map(tile => {
         return (
