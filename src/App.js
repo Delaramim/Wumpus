@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Tile from "./Components/tile";
+import Tiles from "./Tiles";
 
 function App() {
   return (
     <div className="App">
       <div className="Container">
-        <Tile></Tile>
+        <Tiles></Tiles>
       </div>
     </div>
   );
